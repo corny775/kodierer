@@ -1,0 +1,468 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1577,
+      "max": [
+        26.55976104736328,
+        26.507356643676758,
+        59.21784973144531
+      ],
+      "min": [
+        -26.559764862060547,
+        -26.507356643676758,
+        -0.7215169072151184
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 18924,
+      "componentType": 5126,
+      "count": 1577,
+      "max": [
+        1.0,
+        0.9980268478393555,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9980269074440002,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1577,
+      "max": [
+        1.0100001096725464,
+        1.0
+      ],
+      "min": [
+        0.000986635684967041,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 6024,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 37848,
+      "componentType": 5126,
+      "count": 1055,
+      "max": [
+        23.760107040405273,
+        23.713226318359375,
+        39.80360412597656
+      ],
+      "min": [
+        -23.76011085510254,
+        -23.713224411010742,
+        16.816617965698242
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 50508,
+      "componentType": 5126,
+      "count": 1055,
+      "max": [
+        0.9994986653327942,
+        0.9995093941688538,
+        0.9972400665283203
+      ],
+      "min": [
+        -0.9994986653327942,
+        -0.9995092749595642,
+        -0.997240424156189
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 12616,
+      "componentType": 5126,
+      "count": 1055,
+      "max": [
+        1.0100001096725464,
+        0.6769306659698486
+      ],
+      "min": [
+        0.010000079870223999,
+        0.29306933283805847
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24096,
+      "componentType": 5125,
+      "count": 2280,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 63168,
+      "componentType": 5126,
+      "count": 1052,
+      "max": [
+        24.250457763671875,
+        24.202604293823242,
+        6.202792167663574
+      ],
+      "min": [
+        -24.250457763671875,
+        -24.202606201171875,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 75792,
+      "componentType": 5126,
+      "count": 1052,
+      "max": [
+        1.0,
+        0.998026967048645,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9980268478393555,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 21056,
+      "componentType": 5126,
+      "count": 1052,
+      "max": [
+        0.9900000095367432,
+        0.9701848030090332
+      ],
+      "min": [
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 33216,
+      "componentType": 5125,
+      "count": 2988,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "RoboHoloclone12 (https://sketchfab.com/RoboHoloclone12)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/paper-cup-perfect-792d4c0017b0495dbe4173379dbfc3c6",
+      "title": "Paper Cup (Perfect)"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 45168,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 29472,
+      "byteOffset": 45168,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 88416,
+      "byteOffset": 74640,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 163056,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Material_23_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Material_71_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material_23",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Material_71",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Material_24",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cup_Material #23_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Label_Material #71_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Lid_Material #24_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "6a536fce931746a19138459790f1c0c7.fbx"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0762548446655273,
+        2.3897658178240796e-16,
+        0.0,
+        0.007852554321289063,
+        0.0,
+        0.05183154344558716,
+        1.0
+      ],
+      "name": "Cup"
+    },
+    {
+      "mesh": 0,
+      "name": "Cup_Material #23_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        1.0025912523269653,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.226199785242334e-16,
+        -1.0025912523269653,
+        0.0,
+        0.0,
+        1.0762548446655273,
+        2.3897658178240796e-16,
+        0.0,
+        0.007852554321289063,
+        1.3828983306884766,
+        0.05183154344558716,
+        1.0
+      ],
+      "name": "Label"
+    },
+    {
+      "mesh": 1,
+      "name": "Label_Material #71_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        1.1352992057800293,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.5208706361912843e-16,
+        -1.1352992057800293,
+        0.0,
+        0.0,
+        1.8692268133163452,
+        4.150517292781031e-16,
+        0.0,
+        -0.007668495178222656,
+        61.160491943359375,
+        0.031321339309215546,
+        1.0
+      ],
+      "name": "Lid"
+    },
+    {
+      "mesh": 2,
+      "name": "Lid_Material #24_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
