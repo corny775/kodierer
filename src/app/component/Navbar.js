@@ -13,9 +13,14 @@ export const Navbar = () => {
         </div>
         <div>
             <ul className='flex space-x-6 text-lg'>
-                <Link href={'/About'}>
-                    <li className='text-white  hover:underline transition-all'>
-                        About
+            <Link href={'/Analysis'}>
+                    <li className='text-blue-800 hover:text-blue-600 hover:underline transition-all'>
+                        Analysis
+                    </li>
+                </Link>
+                <Link href={'/Community'}>
+                    <li className='text-blue-800 hover:text-blue-600 hover:underline transition-all'>
+                        Community
                     </li>
                 </Link>
                 <Link href={'/Contacts'}>
