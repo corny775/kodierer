@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const Navbar = () => {
   return (
-    <div className='fixed w-full h-24 flex items-center justify-between px-8 bg-green-800 shadow-xl'>
+    <div className='fixed w-full h-24 flex items-center justify-between px-8 bg-green-800 shadow-xl z-[999]'>
         <div>
             <Link href={'/'}>
                 <h1 className=" text-4xl font-semibold text-white transition-colors">
@@ -14,17 +14,17 @@ export const Navbar = () => {
         <div>
             <ul className='flex space-x-6 text-lg'>
             <Link href={'/Analysis'}>
-                    <li className='text-blue-800 hover:text-blue-600 hover:underline transition-all'>
+                    <li className='text-white  transition-all'>
                         Analysis
                     </li>
                 </Link>
                 <Link href={'/Community'}>
-                    <li className='text-blue-800 hover:text-blue-600 hover:underline transition-all'>
+                    <li className='text-white  transition-all'>
                         Community
                     </li>
                 </Link>
                 <Link href={'/Contacts'}>
-                    <li className='text-white  hover:underline transition-all'>
+                    <li className='text-white  transition-all'>
                         Contact
                     </li>
                 </Link>
