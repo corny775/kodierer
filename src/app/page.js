@@ -3,7 +3,6 @@
 import React from 'react'
 import LocomotiveScroll from 'locomotive-scroll';
 import Cursor from './component/Cursor';
-import {Canvas} from './component/Canvas';
 import Home from './Home/page';
 
 export default function page () {
@@ -13,7 +12,6 @@ export default function page () {
     <div className='bg-white h-full w-full'>
       <Cursor />
       <Home/>
-      <Canvas/>
     </div>
   )
 }
