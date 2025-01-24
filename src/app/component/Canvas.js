@@ -14,22 +14,21 @@ export const Canvas = () => {
 
             // Mousemove animation with GSAP
             window.addEventListener('mousemove', (e) => {
-                const x = (e.clientX / window.innerWidth - 0.5) * (Math.PI * 0.3);
-                const y = (e.clientY / window.innerHeight - 0.5) * (Math.PI * 0.3);
+                const x = (e.clientX / window.innerWidth - 0.5) * (Math.PI * 0.1);
+                const y = (e.clientY / window.innerHeight - 0.5) * (Math.PI * 0.1);  // Invert Y movement
 
                 gsap.to(scene.rotation, {
-                    x: y,
-                    y: x,
+                    x: THREE.MathUtils.clamp(y, -Math.PI / 6, Math.PI / 6), // Limit rotation on X-axis
+                    y: THREE.MathUtils.clamp(x, -Math.PI / 6, Math.PI / 6), // Limit rotation on Y-axis
                     duration: 0.5,
                     ease: "power2.out"
                 });
             });
 
-            // Setup camera
+            // Set up camera
             const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 100);
             camera.position.set(0, 0, 100);
 
-            // Ensure ref is available before attaching the renderer
             if (mountRef.current) {
                 const renderer = new THREE.WebGLRenderer({
                     canvas: mountRef.current,
@@ -39,7 +38,7 @@ export const Canvas = () => {
                 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
                 renderer.setSize(window.innerWidth, window.innerHeight);
 
-                // Load GLTF model
+                // Load the GLB model
                 const loader = new GLTFLoader();
                 loader.load('/scene.gltf', (gltf) => {
                     const model = gltf.scene;
@@ -56,7 +55,6 @@ export const Canvas = () => {
 
                     scene.add(model);
 
-                    // Animation loop
                     const animate = () => {
                         requestAnimationFrame(animate);
                         renderer.render(scene, camera);
