@@ -7,8 +7,8 @@ html,body {
 }
 
 body {
-  background-color: white; /* Use a solid color for testing */
-  color: black;
+    background-color: greenyellow; /* Use a solid color for testing */
+    color: black;
 }
 
 .custom-cursor {
